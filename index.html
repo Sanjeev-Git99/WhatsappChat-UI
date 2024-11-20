@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whatsapp UI</title>
+    <link rel="icon" type="img/png" href="./images/whatsapp.png" />
+    <style>
+      .main-container {
+        border: 3px solid black;
+        margin-top: 25px;
+        margin-left: 500px;
+        height: 90vh;
+        width: 35vw;
+        overflow: scroll;
+        border-radius: 15px 15px 15px 15px;
+        background-image: url("https://st3.depositphotos.com/10953546/14866/v/450/depositphotos_148660113-stock-illustration-technology-social-media-network-link.jpg");
+        background-size: cover;
+        z-index: 1;
+      }
+      ::-webkit-scrollbar {
+        display: none;
+      }
+      .profile-container {
+        background-color: green;
+        height: 60px;
+      }
+      .img {
+        border-radius: 100%;
+        margin-top: 5px;
+        margin-left: 5px;
+      }
+      .video-img {
+        margin-left: 330px;
+        height: 50px;
+      }
+      h1 {
+        margin-top: -50px;
+        margin-left: 45px;
+      }
+      .received-msg-container {
+        background-color: rgb(68, 51, 51);
+        text-align: center;
+        margin-left: 5px;
+        width: fit-content;
+        margin-bottom: -5px;
+        border-radius: 15px 15px 15px 15px;
+      }
+      .received-msg {
+        color: white;
+        font-size: 25px;
+        padding: 5px;
+        font-family: "Times New Roman", Times, serif;
+      }
+      .sent-msg-container {
+        background-color: rgb(71, 56, 56);
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-left: auto;
+        width: max-content;
+        border-radius: 15px 15px 15px 15px;
+      }
+      .sent-msg {
+        color: white;
+        font-size: 25px;
+        padding: 5px;
+        font-family: "Times New Roman", Times, serif;
+      }
+      .today-p {
+        font-size: 20px;
+        color: white;
+        padding: 5px;
+      }
+      .p {
+        background-color: rgb(64, 38, 38);
+        border-radius: 10px;
+        width: max-content;
+        margin-left: 250px;
+      }
+      .watermarker {
+        border-radius: 100%;
+        height: 125px;
+        width: 125px;
+        position: fixed;
+        left: 700px;
+        top: 250px;
+        opacity: 0.3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="watermarker">
+      <img
+        src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2016/png/iconmonstr-whatsapp-1.png&r=0&g=0&b=0"
+        alt="whatsapp"
+        height="150px"
+      />
+    </div>
+    <div class="main-container">
+      <div class="profile-container">
+        <img src="./images/no-dp_40.webp" alt="DP" height="50px" class="img" />
+        <img src="./images/video.png" alt="video" class="video-img" />
+        <h1>Sunny@SITS</h1>
+      </div>
+      <div class="p">
+        <p class="today-p">Today</p>
+      </div>
+      <div class="received-msg-container">
+        <p class="received-msg">Hello</p>
+      </div>
+      <div class="sent-msg-container">
+        <p class="sent-msg">Hi</p>
+      </div>
+      <div class="sent-msg-container">
+        <p class="sent-msg">How are you?</p>
+      </div>
+      <div class="received-msg-container">
+        <p class="received-msg">I'm Fine! and, what about you?</p>
+      </div>
+      <div class="sent-msg-container">
+        <p class="sent-msg">I'm Good</p>
+      </div>
+      <div class="received-msg-container">
+        <p class="received-msg">What are you studying?</p>
+      </div>
+      <div class="sent-msg-container">
+        <p class="sent-msg">I'm Btech student, and you?</p>
+      </div>
+      <div class="received-msg-container">
+        <p class="received-msg">I'm also Btech student.</p>
+      </div>
+      <div class="received-msg-container">
+        <p class="received-msg">Which branch?</p>
+      </div>
+      <div class="sent-msg-container">
+        <p class="sent-msg">CSE! and what about you?</p>
+      </div>
+      <div class="received-msg-container end-msg">
+        <p class="received-msg">ECE</p>
+      </div>
+      <div class="sent-msg-container">
+        <p class="sent-msg">Do you know any programming languages?</p>
+      </div>
+      <div class="received-msg-container end-msg">
+        <p class="received-msg">No, and you?</p>
+      </div>
+      <div class="sent-msg-container">
+        <p class="sent-msg">Yes! I know Python and Java.</p>
+      </div>
+      <div class="received-msg-container end-msg">
+        <p class="received-msg">Where did you learn?</p>
+      </div>
+      <div class="sent-msg-container">
+        <p class="sent-msg">Recently I joined 10000 Coders Institute.</p>
+      </div>
+      <div class="sent-msg-container">
+        <p class="sent-msg">I learned in that institute.</p>
+      </div>
+      <div class="received-msg-container end-msg">
+        <p class="received-msg">
+          Sounds great! I'm also want to join that institute.
+        </p>
+      </div>
+      <div class="received-msg-container end-msg">
+        <p class="received-msg">How much is the fee?</p>
+      </div>
+      <div class="sent-msg-container">
+        <p class="sent-msg">35k</p>
+      </div>
+      <div class="received-msg-container end-msg">
+        <p class="received-msg">Okay! How is the institute?</p>
+      </div>
+      <div class="sent-msg-container">
+        <p class="sent-msg">
+          Well, here we have a trainer, support trainer and<br />
+          program manager.
+        </p>
+      </div>
+      <div class="received-msg-container end-msg">
+        <p class="received-msg">Program Manager?</p>
+      </div>
+      <div class="sent-msg-container">
+        <p class="sent-msg">
+          Program manager means he will monitoring our<br />progress in the
+          class.
+        </p>
+      </div>
+      <div class="received-msg-container end-msg">
+        <p class="received-msg">Okay! Thank you, I will contact you.</p>
+      </div>
+      <div class="sent-msg-container">
+        <p class="sent-msg">
+          Okay Bye.
+          <img src="./images/smile.webp" alt="smile_emoji" height="40px" />
+        </p>
+      </div>
+      <div class="received-msg-container end-msg">
+        <p class="received-msg">
+          Bye..
+          <img src="./images/smile.webp" alt="smile_emoji" height="40px" />
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
